@@ -135,7 +135,7 @@ h3 { font-size: 1.35rem; }
 .notebook-pages a span { width: 25px; color: var(--blue); font-family: "Unbounded"; font-size: .6rem; }
 .notebook-close { margin-top: 10px; padding: 7px 10px; border: 0; border-radius: 999px; background: #e9f1f7; color: var(--navy); cursor: pointer; font-size: .67rem; font-weight: 800; }
 .notebook.is-open .notebook-pages { opacity: 1; transform: translateX(-26px) scale(1); pointer-events: auto; }
-.notebook.is-open .notebook-cover { transform: translateX(-258px) rotateY(-156deg); box-shadow: 5px 18px 26px rgba(16,42,67,.16); }
+.notebook.is-open .notebook-cover { transform: translateX(-245px) rotate(-4deg); box-shadow: 5px 18px 26px rgba(16,42,67,.16); }
 .notebook.is-open .notebook-caption { opacity: 0; }
 
 @media (max-width: 900px) {
@@ -180,7 +180,7 @@ h3 { font-size: 1.35rem; }
   .notebook-cover { height: 184px; padding: 22px 16px 17px 24px; }
   .notebook-cover b { font-size: 1rem; }
   .notebook-pages { right: 0; width: 260px; min-height: 274px; }
-  .notebook.is-open .notebook-cover { transform: translateX(-224px) rotateY(-156deg); }
+  .notebook.is-open .notebook-cover { transform: translateX(-190px) rotate(-4deg); }
 }
 
 @media (prefers-reduced-motion: reduce) {
