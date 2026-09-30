@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Демонстрационный сайт онлайн-репетитора по английскому языку для школьников и подготовки к ОГЭ и ЕГЭ.">
+  <meta name="theme-color" content="#102a43">
+  <title>English по полочкам — онлайн-занятия для школьников</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23102a43'/%3E%3Cpath d='M17 18h30v7H26v8h18v7H26v7h22v7H17z' fill='%23ff8066'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-bar">Демонстрационный сайт · имя, контакты и условия заменяются на данные преподавателя</div>
+
+  <header class="header" id="top">
+    <a class="brand" href="#top" aria-label="На главную">
+      <span class="brand-mark">E</span>
+      <span>English<br><b>по полочкам</b></span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="main-nav">Меню</button>
+    <nav class="nav" id="main-nav" aria-label="Основная навигация">
+      <a href="#programs">Программы</a>
+      <a href="#approach">Как проходят занятия</a>
+      <a href="#faq">Вопросы</a>
+      <a class="nav-cta" href="#contact">Записаться</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-image" src="assets/hero.webp" alt="Школьница занимается английским с преподавателем онлайн">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Онлайн · 5–11 классы · ОГЭ и ЕГЭ</p>
+        <h1>Английский без зубрёжки — <span>с понятным планом</span></h1>
+        <p class="hero-copy">Разберём пробелы, укрепим школьную базу и подготовимся к экзамену в спокойном темпе.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Подобрать программу</a>
+          <a class="button button-light" href="#programs">Посмотреть направления</a>
+        </div>
+        <ul class="hero-points" aria-label="Преимущества">
+          <li>Индивидуальный маршрут</li>
+          <li>Материалы после урока</li>
+          <li>Обратная связь родителям</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section intro" aria-labelledby="intro-title">
+      <div>
+        <p class="eyebrow dark">Не просто выполнить домашнее задание</p>
+        <h2 id="intro-title">Помочь ученику понять язык и увидеть прогресс</h2>
+      </div>
+      <p class="lead">В начале определяем цель и текущий уровень. Затем собираем программу из школьных тем, разговорной практики и заданий экзаменационного формата — без перегруза и случайных упражнений.</p>
+    </section>
+
+    <section class="section programs" id="programs" aria-labelledby="programs-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">Направления</p>
+        <h2 id="programs-title">Программа под конкретную задачу</h2>
+      </div>
+      <div class="program-grid">
+        <article class="program-card accent-blue">
+          <span class="program-number">01</span>
+          <h3>Школьный английский</h3>
+          <p>Разобраться в грамматике, закрыть пробелы и увереннее отвечать на уроках.</p>
+          <span class="program-meta">5–9 классы · индивидуально</span>
+        </article>
+        <article class="program-card accent-coral">
+          <span class="program-number">02</span>
+          <h3>Подготовка к ОГЭ</h3>
+          <p>Структура экзамена, стратегии выполнения заданий и работа над типичными ошибками.</p>
+          <span class="program-meta">9 класс · по плану подготовки</span>
+        </article>
+        <article class="program-card accent-navy">
+          <span class="program-number">03</span>
+          <h3>Подготовка к ЕГЭ</h3>
+          <p>Практика всех разделов, письменная и устная части, регулярные пробные варианты.</p>
+          <span class="program-meta">10–11 классы · индивидуально</span>
+        </article>
+        <article class="program-card accent-sky">
+          <span class="program-number">04</span>
+          <h3>Разговорная практика</h3>
+          <p>Расширить словарный запас и начать использовать английский без страха ошибки.</p>
+          <span class="program-meta">Для школьников любого уровня</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section approach" id="approach" aria-labelledby="approach-title">
+      <div class="approach-copy">
+        <p class="eyebrow">Как строится работа</p>
+        <h2 id="approach-title">Каждое занятие — часть понятного маршрута</h2>
+        <p>Ученик знает, над чем работает сегодня и зачем это нужно. Родители понимают, что получается и где требуется больше практики.</p>
+      </div>
+      <ol class="steps">
+        <li><span>1</span><div><b>Знакомство и диагностика</b><p>Определяем уровень, цель и комфортный темп.</p></div></li>
+        <li><span>2</span><div><b>Персональный план</b><p>Выбираем темы, формат и ориентиры на ближайший месяц.</p></div></li>
+        <li><span>3</span><div><b>Практика на уроке</b><p>Говорим, разбираем правила и закрепляем на заданиях.</p></div></li>
+        <li><span>4</span><div><b>Проверка прогресса</b><p>Корректируем план по результатам ученика.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="section lesson" aria-labelledby="lesson-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">Формат</p>
+        <h2 id="lesson-title">Всё необходимое для занятий — онлайн</h2>
+      </div>
+      <div class="lesson-grid">
+        <div class="lesson-item"><b>60 минут</b><span>Оптимальное время для теории, практики и обратной связи</span></div>
+        <div class="lesson-item"><b>1 на 1</b><span>Всё внимание — темпу, вопросам и цели конкретного ученика</span></div>
+        <div class="lesson-item"><b>Материалы</b><span>Конспекты и задания остаются у ученика после урока</span></div>
+        <div class="lesson-item"><b>Связь</b><span>Короткая обратная связь о динамике и следующих шагах</span></div>
+      </div>
+      <p class="price-note">Стоимость обсуждается после знакомства и зависит от выбранной программы.</p>
+    </section>
+
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">Частые вопросы</p>
+        <h2 id="faq-title">До первого занятия</h2>
+      </div>
+      <div class="accordion">
+        <details open><summary>Как понять, с чего начинать?</summary><p>На первой встрече обсуждаем цель и выполняем короткую диагностику. По ней составляется персональный план.</p></details>
+        <details><summary>Нужны ли учебники?</summary><p>Преподаватель подбирает основные материалы под программу. Школьный учебник можно подключить, если важно идти в темпе класса.</p></details>
+        <details><summary>Можно ли подготовиться к экзамену с нуля?</summary><p>Срок и программа зависят от текущего уровня и желаемого результата. После диагностики преподаватель честно обозначит реалистичный маршрут.</p></details>
+        <details><summary>Что потребуется для онлайн-занятий?</summary><p>Компьютер или планшет, стабильный интернет, наушники по желанию и спокойное место для урока.</p></details>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <p class="eyebrow">Первый шаг</p>
+        <h2 id="contact-title">Расскажите, какая задача стоит перед учеником</h2>
+        <p>Преподаватель уточнит уровень, цель и удобное расписание, а затем предложит подходящий формат.</p>
+      </div>
+      <form class="contact-form" id="demo-form">
+        <label>Имя родителя или ученика<input name="name" autocomplete="name" required placeholder="Например, Анна"></label>
+        <label>Класс и цель<input name="goal" required placeholder="8 класс, подтянуть грамматику"></label>
+        <label>Как связаться<input name="contact" required placeholder="Телефон или Telegram"></label>
+        <label class="consent"><input type="checkbox" required><span>Согласен(на) на обработку данных для ответа на заявку</span></label>
+        <button class="button button-primary" type="submit">Отправить заявку</button>
+        <p class="form-note">Демо-форма: данные никуда не передаются.</p>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark">E</span><span>English<br><b>по полочкам</b></span></a>
+    <p>Демонстрационный сайт. Перед запуском укажите реальные сведения о преподавателе, контакты и условия занятий.</p>
+    <span>© <span id="year"></span></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
